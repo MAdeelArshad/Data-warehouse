@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package data.warehouse;
+package warehouse;
 
 import DataBaseHandler.DataBaseHandler;
 import java.sql.*;
