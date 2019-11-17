@@ -24,7 +24,7 @@ public class DataWarehouse {
             // TODO code application logic here
             DataBaseHandler db = DataBaseHandler.getInstance();
             ResultSet rs = db.executeQuery("select * from authors");
-            System.out.println("Id \t name ");
+            System.out.println("Primary ID \t First Name");
             while (rs.next()) {
                 System.out.println(rs.getString("id") + "\t" + rs.getString("firstname"));
             }
